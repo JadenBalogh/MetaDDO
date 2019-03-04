@@ -6,33 +6,33 @@ Take a collection of Items, each with a list of Effects, and automatically const
 
 First, lets try just testing every combination of items and taking the top "N" gearsets.
 
-### Input
+#### Input
 
 The user inputs a weight for each Stat. This should be represented by an easy-to-read list of Stats with corresponding input fields.
 
-### Global Variables
+#### Global Variables
  - ITEMS; Imported list of Items
  - STAT_NAMES; ArrayList of Strings compiled from ITEMS
  - STAT_WEIGHTS; ArrayList of ints assigned by the user
 
-### Gearset
+#### Gearset
  - items; Array (size: 11)
  - stats; Array (size: statNames.length)
 
-### Item
+#### Item
  - name
  - effects; ArrayList of Effects
 
-### Stat
+#### Stat
  - name; from STAT_NAMES
  - total; sum of amounts
  - amounts; a HashTable (key: StackingType, value: amount)
  - weight; assigned by user
 
-### Effect
+#### Effect
  - name; from STAT_NAMES
  - amount
  - stackingType
  
-### StackingType
+#### StackingType
  - Enum of stacking effect types
