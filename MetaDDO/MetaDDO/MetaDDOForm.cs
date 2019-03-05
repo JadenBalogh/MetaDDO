@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace MetaDDO
 {
-    public partial class Form1 : Form
+    public partial class MetaDDOForm : Form
     {
-        public Form1()
+        public MetaDDOForm()
         {
             InitializeComponent();
+        }
+
+        private void MetaDDO_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
