@@ -49,6 +49,7 @@
     <Compile Include="Effect.cs" />
     <Compile Include="Gearset.cs" />
     <Compile Include="Item.cs" />
+    <Compile Include="MetaDDO.cs" />
     <Compile Include="MetaDDOForm.cs">
       <SubType>Form</SubType>
     </Compile>

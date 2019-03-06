@@ -6,11 +6,6 @@ using System.Windows.Forms;
 
 namespace MetaDDO
 {
-    public enum StackingType
-    {
-
-    }
-
     static class Program
     {
         /// <summary>
@@ -19,7 +14,7 @@ namespace MetaDDO
         [STAThread]
         static void Main()
         {
-            Gearset gearset = new Gearset();
+            MetaDDO metaDDO = new MetaDDO();
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
