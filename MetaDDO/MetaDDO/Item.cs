@@ -11,7 +11,7 @@ namespace MetaDDO
         public string name;
         public Effect[] effects;
 
-        public Item()
+        public Item(string name, Effect[] effects)
         {
             
         }
