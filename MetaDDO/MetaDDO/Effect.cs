@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MetaDDO
 {
-    class Effect
+    public class Effect
     {
         public string name;
         public int amount;
