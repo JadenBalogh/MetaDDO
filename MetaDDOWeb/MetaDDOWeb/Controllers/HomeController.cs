@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using MetaDDOWeb.Helpers;
 
 namespace MetaDDOWeb.Controllers
 {
@@ -10,6 +11,8 @@ namespace MetaDDOWeb.Controllers
     {
         public ActionResult Index()
         {
+            MetaDDO metaDDO = new MetaDDO();
+            List<Item> items = metaDDO.ReadItemsFromFile();
             return View();
         }
 
